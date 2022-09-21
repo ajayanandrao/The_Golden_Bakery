@@ -1,0 +1,103 @@
+@import "../../Mixin.scss";
+
+.pizza-bg-container{
+    width: 850px;
+    height: 200px;
+    background: #873600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1rem;
+
+    .fa-sharp{
+        cursor: pointer;
+    }
+    .pizza-img{
+        width: 150px;
+        height: 150px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        object-fit: cover;
+    }
+.pizza-description{
+    width: 300px;
+    padding: 10px;
+    
+        .price{
+            margin: 0 auto;
+            width: 80px;
+            border-radius: 30px;
+            margin-top: 5px;
+            text-align: center;
+            background: #DC7633;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.1s ease-in-out;
+           }
+
+       
+}
+    .pizza-btn-container{
+        width: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+}   
+
+// ==========================================================
+
+@include des{
+    .pizza-bg-container{
+        width: 225px;
+        height: auto;
+        flex-direction: column;
+        margin: 0px;
+        .pizza-description{
+            width: 225px;
+            text-align: center;
+        }
+        .pizza-img{
+            width: 130px;
+            height: 130px;
+        }
+    }
+    
+}
+@include tab{
+    .pizza-bg-container{
+        min-width: 50%;
+        height: auto;
+        flex-direction: column;
+        .pizza-description{
+            width: 100%;
+            text-align: center;
+        }
+        .pizza-img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+@include mobile{
+    .pizza-bg-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        .pizza-description{
+            min-width: 100%;
+            text-align: center;
+        }
+        .pizza-img{
+            width: 130px;
+            height: 130px;
+        }
+    }
+    
+}

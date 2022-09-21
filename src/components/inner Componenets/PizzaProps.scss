@@ -1,0 +1,54 @@
+@import "../../Mixin.scss";
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.pizza-add-container{
+    width: 100%;
+    height: 500px;
+    margin-top: 58px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .banner-title{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        height: 300px;
+        font-size: 110px;
+        font-family: coco;
+    }
+}
+
+
+
+
+
+
+@include des{
+    .displayGrid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:2rem;
+    }
+}
+@include tab{
+    .displayGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:1rem;
+    }
+}
+@include mobile{
+    .displayGrid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:0.5rem;
+    }
+}

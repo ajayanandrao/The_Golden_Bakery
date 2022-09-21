@@ -1,0 +1,35 @@
+@import "./Mixin.scss";
+.main-bg{
+    background: #17202A;
+}
+
+.grid-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:auto;
+    grid-gap: 2rem;
+}
+
+@include desk{
+    .grid-div{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@include des{
+    .grid-div{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+}
+@include tab{
+    .grid-div{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+@include mobile{
+    .grid-div{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+    }
+}

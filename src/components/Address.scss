@@ -1,0 +1,28 @@
+.address-bg-container {
+    width: 100%;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .black {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        min-height: 500px;
+        background: rgba(0, 0, 0, 0.301);
+
+        .address-line {
+            width: 150px;
+            margin-top: 30px;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+}

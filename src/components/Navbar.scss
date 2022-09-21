@@ -1,0 +1,64 @@
+.navbar-brand{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+   background: red;
+    border-radius:5px;
+    font-Family:coco;
+    font-size: 22px;
+}
+.navbar{
+    background: #D68910;
+}
+.fa-cart-shopping{
+    margin:0px 30px;
+    cursor: pointer;
+}
+.bi-person-fill{
+    font-size: 25px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.bi-cart-check-fill{
+    font-size: 25px;
+    margin: 0px 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.like{
+    color: white;
+    &:hover{
+        color: white;
+    }
+}
+// ----------------------------------------------------------------
+
+
+.icon-container{
+    display:inline-flex;
+    // align-items: center;
+    justify-content: center;
+    // width: 50px;
+    height: 30px;
+    // background: blue;
+    flex-direction: column;
+
+    .icon-text{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        text-align: center;
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+        background: #A93226;
+        position: fixed;
+        top:8px;
+        font-weight: 700;
+        margin-left: 25px;
+        font-size: 11px;
+    }
+}

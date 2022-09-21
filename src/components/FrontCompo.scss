@@ -1,0 +1,79 @@
+@import "../Mixin.scss";
+
+.bg-container {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+        position: fixed;
+        z-index: -1;
+        .main-title-text {
+            // text-transform: uppercase;
+            font-family: coco;
+            font-size: 70px;
+            color: gold;
+
+        }
+    }
+}
+
+#video {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+
+@font-face {
+    font-family: "coco";
+    src: url("../fonts/handycheera.regular.otf") format("truetype");
+    font-weight: bold;
+}
+
+
+@include tab {
+    .bg-container {
+        width: 100%;
+        height: 600px;
+        // background: red
+    }
+
+    #video {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        position: fixed;
+        z-index: -1;
+    }
+}
+
+@include des {
+    .main-title-text {
+        font-size: 50px !important;
+    }
+}
+
+@include mobile {
+
+    .bg-container {
+        width: 100%;
+        height: 400px;
+    }
+
+    #video {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        position: fixed;
+        z-index: -1;
+    }
+
+    .main-title-text {
+        font-size: 2.5rem !important;
+    }
+}

@@ -1,0 +1,39 @@
+
+[
+  {
+    "name": "Pizza tomatoes",
+    "id": 1,
+    "title": "Title One",
+    "img": "https://st.depositphotos.com/1003814/5052/i/450/depositphotos_50523105-stock-photo-pizza-with-tomatoes.jpg",
+    "price":"160"
+  },
+  {
+    "name": "Panir Pizza",
+    "id": 2,
+    "title": "Title Two",
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/10/ad/fc/fc/fresh-toppings-and-hot.jpg",
+    "price":"130"
+  },
+  {
+    "name": "Chiz Pizza",
+    "id": 3,
+    "title": "Title Three",
+    "img":"https://i.pinimg.com/736x/db/b2/fa/dbb2fa0bf75118653ebad2d1e6adaa9d.jpg",
+    "price":"110"
+  } ,
+  
+  {
+    "name": "Pizza italian",
+    "id": 4,
+    "title": "Title Four",
+    "img":"https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg",
+    "price":"150"
+  } ,
+  {
+    "name": "Pizza indian",
+    "id": 5,
+    "title": "Title Five",
+    "img":"https://i.pinimg.com/736x/db/b2/fa/dbb2fa0bf75118653ebad2d1e6adaa9d.jpg",
+    "price":"180"
+  } 
+]
