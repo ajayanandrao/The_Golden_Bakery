@@ -1,11 +1,9 @@
 import React, { Fragment, useEffect, useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux';
-import { increment, decrement } from '../../redux/Services/Action';
+import { useDispatch } from 'react-redux';
+import { increment } from '../../redux/Services/Action';
 import './Pizza.scss';
 import Record from './pizza.json';
-import Number from './num.json';
-import { Link } from 'react-router-dom';
-import { decrementNumber, incrementNumber } from '../../redux/Services/CouterAction';
+
 
 const Pizza = () => {
 

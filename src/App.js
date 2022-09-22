@@ -9,7 +9,7 @@ import MainCart from './components/inner Componenets/MainCart';
 function App() {
   return (
     <>
-      <Router basename='golden'>
+      <Router basename='The_Golden_Bakery'>
         <Navbar />
         <Routes>
           <Route exact path='/' element={<Home />} />

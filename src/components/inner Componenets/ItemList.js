@@ -2,8 +2,8 @@
 import Pizza from './Pizza';
 import './PizzaProps.scss';
 
-import { useDispatch} from 'react-redux';
-import { increment } from '../../redux/Services/Action';
+// import { useDispatch} from 'react-redux';
+// import { increment } from '../../redux/Services/Action';
 // import { useEffect } from 'react';
 
 const ItemList = () => {
@@ -11,7 +11,7 @@ const ItemList = () => {
 
 
     
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
 
     // const reducerFile = useSelector((state)=>{
     //     return state["counter"]
@@ -24,10 +24,10 @@ const ItemList = () => {
 
     // End //
 
-const add = () =>{
-    dispatch(increment());
+// const add = () =>{
+//     dispatch(increment());
     
-};
+// };
 
 // const add1 = () =>{
 //     dispatch(increment1());

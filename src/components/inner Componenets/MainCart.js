@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux';
+// import React, { useState } from 'react'
+// import { useDispatch, useSelector } from 'react-redux';
 import Cart from './Cart'
 import './MainCart.scss';
 
 const MainCart = () => {
-    const total = useSelector((state) => state.card)
+    // const total = useSelector((state) => state.card)
 
 
 
