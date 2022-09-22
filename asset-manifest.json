@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/The_Golden_Bakery/static/css/main.13af6da0.css",
+    "main.js": "/The_Golden_Bakery/static/js/main.919038b4.js",
+    "static/js/787.b701888c.chunk.js": "/The_Golden_Bakery/static/js/787.b701888c.chunk.js",
+    "static/media/v.mp4": "/The_Golden_Bakery/static/media/v.e0f212afaab4ac4c09a3.mp4",
+    "static/media/skk.png": "/The_Golden_Bakery/static/media/skk.fae082079b528a767c1f.png",
+    "static/media/a2.png": "/The_Golden_Bakery/static/media/a2.83d4d76c3aa5477ecf3a.png",
+    "static/media/g2.gif": "/The_Golden_Bakery/static/media/g2.6c9096df647291627e2a.gif",
+    "static/media/c1.png": "/The_Golden_Bakery/static/media/c1.6b2d38b884132ac44360.png",
+    "static/media/pizza-20.jpg": "/The_Golden_Bakery/static/media/pizza-20.07834239636f162d7794.jpg",
+    "static/media/handycheera.regular.otf": "/The_Golden_Bakery/static/media/handycheera.regular.f447fcf47f14b5efa251.otf",
+    "static/media/hand-2.jpg": "/The_Golden_Bakery/static/media/hand-2.0cd1e14cb4bfe0753249.jpg",
+    "static/media/hand.jpg": "/The_Golden_Bakery/static/media/hand.8db42c5f09d1222abcff.jpg",
+    "static/media/b.jpg": "/The_Golden_Bakery/static/media/b.cfdd418c98dc1388b306.jpg",
+    "static/media/l.jpg": "/The_Golden_Bakery/static/media/l.f143729182bd845a872b.jpg",
+    "static/media/pizza.jpg": "/The_Golden_Bakery/static/media/pizza.fa16e63b48c70f7dc78c.jpg",
+    "static/media/cr.jpg": "/The_Golden_Bakery/static/media/cr.e3fdeaa6490ca309cf45.jpg",
+    "static/media/cake.jpg": "/The_Golden_Bakery/static/media/cake.e00f1d9266c6b53abcdf.jpg",
+    "static/media/biscuit2.jpg": "/The_Golden_Bakery/static/media/biscuit2.313d413e25629f4c9c1b.jpg",
+    "index.html": "/The_Golden_Bakery/index.html",
+    "main.13af6da0.css.map": "/The_Golden_Bakery/static/css/main.13af6da0.css.map",
+    "main.919038b4.js.map": "/The_Golden_Bakery/static/js/main.919038b4.js.map",
+    "787.b701888c.chunk.js.map": "/The_Golden_Bakery/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13af6da0.css",
+    "static/js/main.919038b4.js"
+  ]
+}
