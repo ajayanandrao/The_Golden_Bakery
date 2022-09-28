@@ -79,7 +79,7 @@ const ItemList = () => {
     <>
             <div className="center">
                 <div className='displayGrid'>
-                    <Pizza />
+                    {/* <Pizza /> */}
                 </div>
             </div>
     </>
