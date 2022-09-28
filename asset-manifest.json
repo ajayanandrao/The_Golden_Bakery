@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/The_Golden_Bakery/static/css/main.13af6da0.css",
-    "main.js": "/The_Golden_Bakery/static/js/main.6db2cfb3.js",
+    "main.js": "/The_Golden_Bakery/static/js/main.8316062b.js",
     "static/js/787.b701888c.chunk.js": "/The_Golden_Bakery/static/js/787.b701888c.chunk.js",
     "static/media/v.mp4": "/The_Golden_Bakery/static/media/v.e0f212afaab4ac4c09a3.mp4",
     "static/media/skk.png": "/The_Golden_Bakery/static/media/skk.fae082079b528a767c1f.png",
@@ -20,11 +20,11 @@
     "static/media/biscuit2.jpg": "/The_Golden_Bakery/static/media/biscuit2.313d413e25629f4c9c1b.jpg",
     "index.html": "/The_Golden_Bakery/index.html",
     "main.13af6da0.css.map": "/The_Golden_Bakery/static/css/main.13af6da0.css.map",
-    "main.6db2cfb3.js.map": "/The_Golden_Bakery/static/js/main.6db2cfb3.js.map",
+    "main.8316062b.js.map": "/The_Golden_Bakery/static/js/main.8316062b.js.map",
     "787.b701888c.chunk.js.map": "/The_Golden_Bakery/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13af6da0.css",
-    "static/js/main.6db2cfb3.js"
+    "static/js/main.8316062b.js"
   ]
 }
